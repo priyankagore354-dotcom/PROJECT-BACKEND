@@ -19,7 +19,7 @@ app.use('/category',categoryRoutes);
 app.use('/bookings',bookingsRoutes);
 app.use('/uploads',express.static("uploads"))
 
-app.listen(3010,()=>{
+app.listen(3002,()=>{
     console.log("Server is connected")
 })
 
